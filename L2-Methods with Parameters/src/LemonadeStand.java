@@ -44,9 +44,13 @@ public class LemonadeStand {
 
       String message = "Your order:";
       message += "\n\t16 oz: " + num16;
+        message += "\n16 oz: " + num16;
+        message += "\n120 oz : " + num20;
+
 
 
         JOptionPane.showMessageDialog(null, "The total for sixteen ounce drinks is " + total);
+
 
     }
     }
