@@ -34,7 +34,7 @@ public class LemonadeStand {
     private static void calculateCost(int num16, int num20) {
         DecimalFormat round = new DecimalFormat("#,###.00");
 
-      double cost16 = num16* price16;
+      double cost16 = num16 * price16;
       double cosr20 = num20 * price20;
 
       double total16 = cost16 * (1+(tax/100));
