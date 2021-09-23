@@ -53,7 +53,8 @@ public class CircleCalc {
 
         return Math.pow(radius, 2) * Math.PI;
     }
-    public static double circlesPerimeter( double radius ) {
+    public static double circlesPerimeter( double radius )
+    {
         return 2 * Math.PI * radius;
     }
     public static String displayResults(double area, double circlesPerimeter ){
